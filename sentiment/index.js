@@ -51,4 +51,4 @@ app.post('/sentiment', async (req, res) => {
 // Start the server
 app.listen(port, () => {
 	logger.info(`Server running on port ${port}`);
-});
+})
