@@ -1,3 +1,4 @@
+/*jshint esversion: 8 */
 name: 'CI/CD'
 
 on:
@@ -5,7 +6,7 @@ on:
     branches: [master, main]
   pull_request:
     branches: [master, main]
-/*jshint esversion: 8 */
+
 jobs:
   lint_js:
       name: Lint JavaScript Files
